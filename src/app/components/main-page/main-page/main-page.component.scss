@@ -1,0 +1,104 @@
+.banner{
+    margin: 12px;
+}
+
+.logo{  
+    text-align: center
+}
+
+.login{
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 10px;
+    top: 0;
+    right: 0;
+}
+  
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+  
+.searchTerm {
+    width: 100%;
+    border: 3px solid #ff6182;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+    margin-left: 10px;
+}
+.searchicon{
+    height: 30px;
+    width: 32px;
+    position: relative; 
+    right:4px; 
+    top:1px;
+}
+.searchTerm:focus{
+    color: #000000;
+}
+  
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #ff6182;
+    background: #ff6182;
+    text-align: center;
+    color: #000000;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap{
+    width: 98%;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    position: absolute;
+    top: 17%;
+    left: 2%;
+}
+
+.buttons{
+    position: absolute;
+    top: 20%;
+}
+
+.buttons button{
+    margin: 25px;
+    padding: 50px;
+    height: auto;
+    left: 1%;
+    background-color: #f0f2f9;
+}
+
+.near h2{
+    position: absolute;
+    top: 45%;
+    left: 2%;   
+}
+
+.design{
+    background-color: #f0f2f9;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #d3d5db;
+    border-radius: 4px;
+
+}
+
+.instructor {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
