@@ -30,3 +30,11 @@ $bodysky-testapp-theme: mat-light-theme($bodysky-testapp-primary, $bodysky-testa
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+    font-family: Graphik;
+    src: url(assets/Graphik-Black.woff2) format("opentype");
+    src: url(assets/Graphik-Medium.woff2) format("opentype");
+    src: url(assets/Graphik-Regular.woff2) format("opentype");
+}
+

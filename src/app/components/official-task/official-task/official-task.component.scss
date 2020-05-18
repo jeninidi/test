@@ -1,0 +1,73 @@
+.grid{
+    max-width: 1440px;
+    border: 1px solid pink;
+    position: relative;
+    overflow: hidden;
+}
+
+.container{
+    width: 1140px;
+    height: 1024px;
+    border: 1px solid pink;
+    position: relative;
+    left: 10%  
+}
+
+.wave{
+    width: 805px;
+    height: 858px;
+    position: absolute;
+    left: 45%;
+}
+
+.phones{
+    position: absolute;
+    top: 20%;
+    left: 44%;
+    width: 950px;
+    height: 1085px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.for-trainers{
+    height: 28px;
+    font-family: Graphic;
+    font-size: 20px;
+    font-weight: 550;
+    color: #ffffff;
+    position: absolute;
+    left: 60%;
+    top: 7%;
+    text-decoration: none;
+}
+
+.for-clients{
+    height: 28px;
+    font-family: Graphic;
+    font-size: 20px;
+    font-weight: 550;
+    color: #ffffff;
+    position: absolute;
+    left: 70%;
+    top: 7%;
+    text-decoration: none;
+}
+
+.login{
+    height: 28px;
+    font-family: Graphic;
+    font-size: 20px;
+    font-weight: 550;
+    color: #ffffff;
+    position: absolute;
+    left: 81.5%;
+    top: 7%;
+    text-decoration: none;
+}
+
+.lock{
+    position: absolute;
+    left: 80%;
+    top: 7%;
+}

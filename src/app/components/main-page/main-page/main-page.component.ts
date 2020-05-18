@@ -9,6 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class MainPageComponent implements OnInit {
 
   public instructors:any = []
+  public picture:any = []
   constructor(private http: HttpClient) {
   }
   
@@ -20,7 +21,6 @@ export class MainPageComponent implements OnInit {
     })
   }
 
-  
   ngOnInit() {
     this.getAllInstructors()
   }
