@@ -1,14 +1,15 @@
 .grid{
-    max-width: 1440px;
-    border: 1px solid pink;
+    width: 1440px;
     position: relative;
     overflow: hidden;
+    border: 1px solid pink!important;
+    margin-left: 17%;
+    margin-top: 2%;
 }
 
 .container{
     width: 1140px;
     height: 1024px;
-    border: 1px solid pink;
     position: relative;
     left: 10%  
 }
@@ -32,42 +33,148 @@
 
 .for-trainers{
     height: 28px;
-    font-family: Graphic;
+    font-family: Graphic-Regular;
     font-size: 20px;
     font-weight: 550;
     color: #ffffff;
     position: absolute;
-    left: 60%;
+    left: 55%;
     top: 7%;
     text-decoration: none;
+    z-index:1000;
 }
 
 .for-clients{
     height: 28px;
-    font-family: Graphic;
+    font-family: Graphic-Regular;
     font-size: 20px;
     font-weight: 550;
     color: #ffffff;
     position: absolute;
-    left: 70%;
+    left: 65%;
     top: 7%;
     text-decoration: none;
+    z-index:1000;
 }
 
 .login{
     height: 28px;
-    font-family: Graphic;
+    font-family: Graphic-Regular;
     font-size: 20px;
     font-weight: 550;
     color: #ffffff;
     position: absolute;
-    left: 81.5%;
+    left: 76.5%;
     top: 7%;
     text-decoration: none;
+    z-index:1000;
 }
 
 .lock{
     position: absolute;
-    left: 80%;
+    left: 75%;
     top: 7%;
+}
+
+.gratis{
+    width: 149px;
+    height: 41px;
+    background-color: black;
+    position: absolute;
+    top: 6%;
+    left: 84%;
+    font-family: Graphic-Regular;
+    font-size: 20px;
+    font-weight: 550;
+    color: #ffffff;
+}
+
+.logo{
+    width: 155px;
+    height: 32px;
+    position: absolute;
+    top: 7%;
+    left: 5%;
+}
+
+.span1{
+    width: 537px;
+    height: 165px;
+    font-family: Graphik-Black;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.15;
+    color: #1d1d1d;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+}
+
+.span2{
+    width: 442px;
+    height: 48px;
+    font-family: Graphik-Regular;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #1d1d1d;
+    position: absolute;
+    left: 5%;
+    top: 43%;
+}
+
+.apple{
+    position: absolute;
+    left: 1.5%;
+    top: 50%;
+    box-shadow:  rgba(52, 46, 47, 0.2);
+}
+
+.android{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    box-shadow:  rgba(52, 46, 47, 0.2);
+}
+
+.span3{
+    width: 442px;
+    height: 48px;
+    font-family: Graphik-Regular;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #1d1d1d;
+    position: absolute;
+    left: 14%;
+    top: 70%;
+}
+
+.instructor-picture{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 10%;
+    border-radius: 40px;
+}
+
+.instructor {
+    position: absolute;
+    top: 75%;
+    left: 12%;
+    width: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.design{
+    // float: left;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#styling{
+    flex: 0 0 auto;
 }
